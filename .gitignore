@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+*.iml
+build/
+**/build/
+.gradle/
+*/target/
+target/
+.DS_Store
+*/DS_Store
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+release.properties
