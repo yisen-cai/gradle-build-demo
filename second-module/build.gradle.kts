@@ -46,6 +46,7 @@ publishing {
             pom {
                 name.set("Second Module")
                 description.set("Second Module description.")
+                url.set("https://github.com/yisen-cai/gradle-build-demo/tree/main/second-module")
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0'")
@@ -62,9 +63,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git:git://github.com/yisen-cai/spring-wechat.git'")
-                    developerConnection.set("scm:git:git@github.com:yisen-cai/spring-wechat.git")
-                    url.set("https://github.com/yisen-cai/spring-wechat")
+                    connection.set("scm:git:git://github.com/yisen-cai/gradle-build-demo.git'")
+                    developerConnection.set("scm:git:git@github.com:yisen-cai/gradle-build-demo.git")
+                    url.set("https://github.com/yisen-cai/gradle-build-demo")
                 }
             }
         }
